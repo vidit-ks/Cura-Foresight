@@ -1,5 +1,5 @@
 import { useContext, useState , useEffect } from "react";
-import { AuthContext } from "../../context/authContext";
+import { AuthContext } from "../../context/AuthContext";
 import MyBookings from "./MyBookings";
 import Profile from "./Profile";
 //import Error from "../../components/Loader/Error";
