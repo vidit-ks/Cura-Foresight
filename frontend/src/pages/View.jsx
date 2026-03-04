@@ -6,7 +6,7 @@ const View = () => {
   const [ehr, getEhr] = useState([]);
   useEffect(() => {
     const getData = async (e) => {
-      const res = await fetch("http://localhost:5000/api/v1/upload/file", {
+      const res = await fetch("https://cura-foresight.onrender.com/api/v1/upload/file", {
         method: "get",
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
