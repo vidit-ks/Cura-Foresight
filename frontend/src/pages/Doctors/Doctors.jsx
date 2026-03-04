@@ -7,7 +7,7 @@ const Doctors = () => {
   const [doctors,setDoctors]=useState([])
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:5000/api/v1/doctors/", {
+      const response = await fetch("https://cura-foresight.onrender.com/api/v1/doctors/", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
