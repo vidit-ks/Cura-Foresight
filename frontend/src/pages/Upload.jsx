@@ -22,7 +22,7 @@ const Upload = () => {
       formData.append("filename", pdf);
       formData.append("description", desc);
       console.log(formData);
-      const res = await fetch("http://localhost:5000/api/v1/upload/file", {
+      const res = await fetch("https://cura-foresight.onrender.com/api/v1/upload/file", {
         method: "post",
         body: formData,
         headers: {
