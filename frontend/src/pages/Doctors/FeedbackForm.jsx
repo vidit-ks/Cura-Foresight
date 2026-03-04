@@ -11,7 +11,7 @@ const FeedbackForm = () => {
         e.preventDefault();
 
         try{
-            const response = await fetch(`http://localhost:5000/api/v1/doctors/${id}/reviews`,{
+           const response = await fetch(`https://cura-foresight.onrender.com/api/v1/doctors/${id}/reviews`, {
                 method : 'POST',
                 body : JSON.stringify({
                     rating : rating,
