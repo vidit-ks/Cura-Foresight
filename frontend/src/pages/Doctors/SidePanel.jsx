@@ -26,7 +26,7 @@ const SidePanel = (doctors) => {
             console.log(ticketPrice)
             //console.log(localStorage.getItem('token'))
             console.log(selectedtimeslot)
-            const response = await fetch(`http://localhost:5000/api/v1/doctors/${_id}/booking`,{
+            const response = await fetch(`https://cura-foresight.onrender.com/api/v1/doctors/${_id}/booking`, {
                 method : 'POST',
                 body : JSON.stringify({
                     ticketPrice : ticketPrice,
