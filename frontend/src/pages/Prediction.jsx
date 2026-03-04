@@ -7,7 +7,7 @@ const Prediction = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        `http://localhost:5000/api/v1/ai/getprediction`,
+        `https://cura-foresight.onrender.com/api/v1/ai/getprediction`,
         {
           method: "POST",
           body: JSON.stringify({
