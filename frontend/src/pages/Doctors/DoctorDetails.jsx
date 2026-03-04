@@ -15,7 +15,7 @@ const DoctorDetails = () => {
     console.log(id)
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/v1/doctors/${id}`, {
+        const response = await fetch(`https://cura-foresight.onrender.com/api/v1/doctors/${id}`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
