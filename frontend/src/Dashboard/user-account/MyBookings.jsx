@@ -19,7 +19,7 @@ const MyBookings = (userData) => {
     //console.log(userData.userData._id)
     useEffect(() => {
         const fetchData = async () => {
-          const response = await fetch(`http://127.0.0.1:5000/api/v1/users/appointments/my-appointments`, {
+          const response = await fetch(`https://cura-foresight.onrender.com/api/v1/users/appointments/my-appointments`, {
             method: "GET",
             headers: {
               "Content-Type": "application/json",
