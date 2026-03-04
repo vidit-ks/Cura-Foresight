@@ -18,7 +18,7 @@ const MyAccount = () => {
   const [userdata,setUser]=useState([])
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(`http://localhost:5000/api/v1/users/${user._id}`, {
+      const response = await fetch(`https://cura-foresight.onrender.com/api/v1/users/${user._id}`,{
         method: "GET",
         headers: {
           "Content-Type": "application/json",
