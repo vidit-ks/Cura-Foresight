@@ -80,7 +80,7 @@ const Footer = () => {
           <img src={new_logo} className='w-[50px] h-[50px]' alt="" />
           <p>Cura-foresight</p>
         </div>
-            <p className='text-[16px] leading-7 font-[400] text-textColor mt-4'>Copyright &copy; {year} developed by Anshika Arora. All rights reserved.</p>
+            <p className='text-[16px] leading-7 font-[400] text-textColor mt-4'>Copyright &copy; {year} developed by Vidit Kumar Singh. All rights reserved.</p>
             <div className='flex items-center gap-3 mt-4'>
               {socialLinks.map((link,index)=><Link to={link.path} key={index} className='w-9 h-9 border border-solid border-[#181A1e] rounded-full flex items-center justify-center group hover:bg-primaryColor hover:border-none'>{link.icon}</Link>)}
             </div>
